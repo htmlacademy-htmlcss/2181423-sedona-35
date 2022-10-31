@@ -2,7 +2,7 @@
   font-family: "PT Sans";
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/ptsans-400.woff2") format ("woff2")
+  src: url("../fonts/ptsans-400.woff2") format("woff2")
   font-display: swap;
 }
 
@@ -10,7 +10,7 @@
   font-family: "PT Sans";
   font-style: normal;
   font-weight: 700;
-  src: url("../fonts/ptsans-700.woff2") format ("woff2");
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
   font-display: swap;
 }
 
@@ -48,11 +48,15 @@ body {
 .main-index {
   color: #000000;
   background-color: #ffffff;
+}
+
+.background-sedona-rock {
   background-image: url("../images/background-main.jpg");
   background-repeat: no-repeat;
   background-size: 1200px 485px;
   background-position: absolute;
 }
+
 /* Intro */
 .index-intro {
   text-align: center;
