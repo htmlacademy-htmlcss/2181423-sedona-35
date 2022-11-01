@@ -1,0 +1,160 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2")
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.button {
+  background: #756157;
+  border-radius: 4px;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.page-header {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.navigation-link {
+  line-height: 24px;
+  color: inherit;
+  background-color: inherit;
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+.main-index {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.background-sedona-rock {
+  background-image: url("../images/background-main.jpg");
+  background-repeat: no-repeat;
+  background-size: 1200px 485px;
+  background-position: absolute;
+}
+
+/* Intro */
+.index-intro {
+  text-align: center;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.index-intro h2 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.index-intro p {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+/* List */
+.advantages-list {
+  text-align: center;
+}
+
+/* Title blue */
+.advantages-title_blue {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+/* Item blue */
+.advantages-description_blue {
+  color: #ffffff;
+}
+/* Title */
+.advantages-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+/* Item */
+.advantages-description {
+  color: #333333;
+}
+
+.index-blocks {
+  text-align: center;
+}
+
+.interest {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.hotel-search p {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  color: #333333;
+}
+
+.distribution {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.sign-up p {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: ceter;
+  color: #ffffff;
+}
+
+.page-footer-phone {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  font-style: normal;
+}
+
+.page-footer-logo {
+  text-align: right;
+}
