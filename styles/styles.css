@@ -133,6 +133,14 @@ body {
   display: flex;
 }
 
+.advantages-item-wide-text {
+  width: 400px;
+}
+
+.advantages-item-wide-image {
+  width: 800px;
+}
+
 /* Title blue */
 .advantages-title_blue {
   font-weight: 700;
