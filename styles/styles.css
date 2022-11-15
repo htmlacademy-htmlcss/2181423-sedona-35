@@ -43,24 +43,37 @@ body {
 .page-header {
   background-color: #ffffff;
   color: #000000;
+  margin-right: 70px;
+  margin-left: 70px;
 }
 
 .navigation {
+  display: flex;
   margin: 0 auto;
 }
 
 .navigation-list {
-  width: 340px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 450px;
   margin: 0;
   padding: 0;
+  list-style-type: none;
 }
 
 .navigation-user {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
   max-width: 270px;
   margin-left: auto;
 }
 
 .navigation-link {
+  display: block;
+  padding: 20px;
   line-height: 24px;
   color: inherit;
   background-color: inherit;
@@ -68,6 +81,11 @@ body {
   font-size: 20px;
   text-transform: capitalize;
   text-decoration: none;
+}
+
+.navigation-user .navigation-link {
+  min-width: 16px;
+  min-height: 22px;
 }
 
 .main-index {
@@ -100,6 +118,8 @@ body {
   text-align: center;
   color: #000000;
   background-color: #ffffff;
+  margin-top: 70px;
+  margin-bottom: 90px;
 }
 
 .index-intro h2 {
@@ -115,6 +135,10 @@ body {
   line-height: 26px;
 }
 
+.another-color {
+  background-color: rgba(131, 179, 211, 0.2);;
+}
+
 /* List */
 .advantages-list {
   display: flex;
@@ -125,16 +149,24 @@ body {
 }
 
 .advantages-item {
+  align-items: center;
+  list-style-type: none;
+  margin-top: 92px;
+  margin-bottom: 111px;
   width: 400px;
 }
 
 .advantages-item-wide {
   width: 100%;
   display: flex;
+  background-color: #82B3D3;
 }
 
 .advantages-item-wide-text {
+  margin-top: 92px;
+  margin-bottom: 111px;
   width: 400px;
+
 }
 
 .advantages-item-wide-image {
@@ -168,6 +200,17 @@ body {
   color: #333333;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .footer-media {
   width: 145px;
   margin-left: 70px;
@@ -185,6 +228,8 @@ body {
 }
 
 .index-blocks {
+  margin-top: 96px;
+  margin-bottom: 104px;
   text-align: center;
 }
 
@@ -213,6 +258,11 @@ body {
   color: #ffffff;
 }
 
+.sign-up {
+margin-top: 96px;
+margin-bottom: 104px;
+}
+
 .sign-up p {
   font-weight: 400;
   font-size: 22px;
@@ -225,6 +275,16 @@ body {
   display: flex;
 }
 
+.footer-social-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.footer-social-item {
+  margin-right: 27px;
+}
+
 .page-footer-phone {
   font-weight: 400;
   font-size: 40px;
@@ -232,10 +292,12 @@ body {
   text-align: center;
   text-transform: uppercase;
   font-style: normal;
+  text-decoration: none;
 }
 
 .page-footer-logo {
   text-align: right;
+  margin-right: 70px;
 }
 
 .page-footer-container {
