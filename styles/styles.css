@@ -217,8 +217,13 @@ body {
   margin-right: 250px;
 }
 
+.page-footer {
+  display: grid;
+  grid-template-columns: 150px 400px 120px;
+}
+
 .page-footer-phone {
-  width: 335px;
+  width: 350px;
   margin-right: 235px;
 }
 
@@ -282,7 +287,11 @@ margin-bottom: 104px;
 }
 
 .footer-social-item {
-  margin-right: 27px;
+  margin-right: 10px;
+}
+
+.footer-social-item:nth-child(3) {
+  margin-right: 0;
 }
 
 .page-footer-phone {
