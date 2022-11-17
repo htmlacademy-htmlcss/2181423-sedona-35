@@ -220,6 +220,7 @@ body {
 .page-footer {
   display: grid;
   grid-template-columns: 150px 400px 120px;
+  grid-column: 1 / -1;
 }
 
 .page-footer-phone {
