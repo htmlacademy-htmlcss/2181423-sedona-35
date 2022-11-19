@@ -213,23 +213,17 @@ body {
 
 .footer-media {
   width: 145px;
-  margin-left: 70px;
-  margin-right: 250px;
 }
 
 .page-footer {
   display: grid;
-  grid-template-columns: 150px 400px 120px;
-  grid-column: 1 / -1;
+  padding-left: 70px;
+  padding-right: 70px;
+  grid-template-columns: 150px 1fr 150px;
 }
 
-.page-footer-phone {
-  width: 350px;
-  margin-right: 235px;
-}
 
 .page-footer-logo {
-  margin-left: auto;
   max-width: 115px;
 }
 
@@ -275,10 +269,6 @@ margin-bottom: 104px;
   line-height: 26px;
   text-align: ceter;
   color: #ffffff;
-}
-
-.page-footer {
-  display: flex;
 }
 
 .footer-social-list {
