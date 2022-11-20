@@ -213,17 +213,17 @@ body {
 
 .footer-media {
   width: 145px;
-  margin-left: 70px;
-  margin-right: 250px;
 }
 
-.page-footer-phone {
-  width: 335px;
-  margin-right: 235px;
+.page-footer {
+  display: grid;
+  padding-left: 70px;
+  padding-right: 70px;
+  grid-template-columns: 150px 1fr 150px;
 }
+
 
 .page-footer-logo {
-  margin-left: auto;
   max-width: 115px;
 }
 
@@ -271,10 +271,6 @@ margin-bottom: 104px;
   color: #ffffff;
 }
 
-.page-footer {
-  display: flex;
-}
-
 .footer-social-list {
   display: flex;
   flex-wrap: wrap;
@@ -282,7 +278,11 @@ margin-bottom: 104px;
 }
 
 .footer-social-item {
-  margin-right: 27px;
+  margin-right: 10px;
+}
+
+.footer-social-item:nth-child(3) {
+  margin-right: 0;
 }
 
 .page-footer-phone {
